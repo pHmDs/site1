@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.a {
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    background-color: gray;
+    border: 1px solid black;
+}
+
+div.a:hover {
+    background-color: yellow;
+}
+
+div.b>p {
+    display: none;
+    cursor: pointer;
+}
+
+div.b:hover>p {
+    display: block;
+    color: red;
+    background-color: black;
+    width: 100px;
+}
